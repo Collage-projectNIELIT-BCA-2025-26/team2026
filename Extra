@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Team Project - Home</title>
+    <meta name="description" content="Welcome to the BCA team project home page. Grow with a limit in our competitive landscape.">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">GOAT</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#bodyy">About</a>
+                <a href="#footer">Contact</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="nav-actions">
+                <input type="search" name="search" id="input" placeholder="Search...">
+                <a href="pages/sign_in.html" class="login-btn">Login</a>
+            </div>
+        </div>
+    </nav>
+    <script src="script/script.js"></script>
+    <main>
+        <section id="home">
+            <h1>Grow with a limit</h1>
+        </section>
+        <p class="intro-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, inventore voluptatibus iure autem esse sequi sapiente rem numquam dolorem voluptas vero magni deleniti commodi reprehenderit totam labore eaque fugit sunt!</p>
+        <section id="content">
+            <div class="cta-buttons">
+                <button type="button">Get Started</button>
+                <button type="button">Learn More</button>
+            </div>
+        </section>
+        <section id="bodyy">
+            <div class="feature-card">
+                <h4>About Us</h4>
+                <p class="feature-text">We are a team of passionate individuals dedicated to helping you achieve your goals. With years of experience in our field, we provide the best solutions for your needs.</p>
+            </div>
+            <div class="feature-card">
+                <h4>Our Mission</h4>
+                <p class="feature-text">Our mission is to empower individuals and businesses with the tools and knowledge they need to succeed in today's competitive landscape.</p>
+            </div>
+            <div class="feature-card">
+                <h4>Contact Us</h4>
+                <p class="feature-text">If you have any questions or would like to learn more about our services, please don't hesitate to reach out. We are here to help!</p>
+            </div>
+            <div class="feature-card">
+                <h4>Join Our Team</h4>
+                <p class="feature-text">We are always looking for talented and motivated individuals to join our team. If you are interested in working with us, please send your resume and cover letter to our email address.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="footer">© 2024 GOAT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
